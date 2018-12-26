@@ -71,7 +71,7 @@ class _CandyLauncherState extends State<CandyLauncher> {
         });
     }
 
-    void getAppIcons() {
+    List<Widget> getAppIcons() {
         List<Widget> appWidgets = [];
         for(var i=0;i<installedAppDetails.length;i++) {
             if(installedAppDetails[i]["package"] == "com.progur.candy") continue;
