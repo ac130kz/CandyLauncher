@@ -1,0 +1,17 @@
+name: launcher_assist
+description: This plugin makes it easy for you to create launcher apps for Android with Flutter. Not supported on iOS.
+version: 1.0.4
+author: Ashraff Hathibelagal <hathi@progur.com>
+homepage: https://progur.com
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: com.progur.launcherassist
+    pluginClass: LauncherAssistPlugin
+
+environment:
+  sdk: '>=2.0.0 <3.0.0'

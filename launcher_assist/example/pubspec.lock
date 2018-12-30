@@ -47,9 +47,9 @@ packages:
     source: sdk
     version: "0.0.0"
   launcher_assist:
-    dependency: "direct main"
+    dependency: "direct dev"
     description:
-      path: launcher_assist
+      path: ".."
       relative: true
     source: path
     version: "1.0.4"
